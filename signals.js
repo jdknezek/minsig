@@ -139,7 +139,7 @@ class Effect                 {
 		runningSink = this;
 		try {
 			const cleanup = this.action();
-			if (cleanup) this.cleanup = cleanup;
+			if (typeof cleanup === 'function') this.cleanup = cleanup;
 		} finally {
 			runningSink = previousSink;
 		}
