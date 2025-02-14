@@ -1,0 +1,10 @@
+{
+	"compilerOptions": {
+		"declaration": true,
+		"forceConsistentCasingInFileNames": true,
+		"strict": true,
+		"target": "esnext",
+		"useDefineForClassFields": true,
+		"verbatimModuleSyntax": true,
+	}
+}

@@ -1,0 +1,12 @@
+{
+	"name": "minsig",
+	"type": "module",
+	"main": "signals.js",
+	"scripts": {
+		"build": "tsb",
+		"watch": "tsb -w"
+	},
+	"devDependencies": {
+		"tsb": "github:jdknezek/tsb"
+	}
+}
